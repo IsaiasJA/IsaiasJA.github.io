@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #ffffff; /* Cambia el color y grosor del borde de la tabla */
+}
+
+td {
+    vertical-align: top;
+    padding: 20px;
+    border: 2px solid #561fd4; /* Cambia el color del borde de las celdas */
+}
+
+td:first-child {
+    width: 60%; /* Columna izquierda */
+}
+
+td:last-child {
+    width: 40%; /* Columna derecha */
+}
