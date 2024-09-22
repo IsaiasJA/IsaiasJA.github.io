@@ -24,6 +24,5 @@ export class EducationComponent {
       ]
     }
     this.education.push(education1);
-    console.log(this.education);
   }
 }

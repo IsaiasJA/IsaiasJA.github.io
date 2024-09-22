@@ -27,11 +27,11 @@ export class WorkExperienceComponent {
     let work2 = {
       fecha: "2018-2022",
       ubicacion: "Orizaba Ver.",
-      puesto: "CEO",
+      puesto: "Developer",
       empresa: "Kubeet",
       logros: [
         {
-          descripcion: "CCreación de invernadero hidroptico"
+          descripcion: "Creación de invernadero hidroptico"
         },
         { descripcion: "Creacion de un dron autonomo" }
       ]
@@ -39,7 +39,5 @@ export class WorkExperienceComponent {
 
     this.workExperience.push(work1);
     this.workExperience.push(work2);
-    console.log(this.workExperience);
-
   }
 }
