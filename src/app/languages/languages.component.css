@@ -1,0 +1,32 @@
+.languages-container {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .languages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .language-item {
+    background-color: #7d09e9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    transition: transform 0.2s ease;
+  }
+  
+  .language-item:hover {
+    transform: scale(1.05)skill;
+  }
