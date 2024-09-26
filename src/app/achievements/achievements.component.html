@@ -1,0 +1,16 @@
+<h3>Logros</h3>
+
+<div class="achievements-container">
+  <div *ngFor="let achievement of achievements" class="achievement-card">
+    <div class="date-location">
+      <span>{{ achievement.fecha }}</span> | <span>{{ achievement.ubicacion }}</span>
+    </div>
+    <h3>{{ achievement.alcance }}</h3>
+    <p><strong>Logros:</strong></p>
+    <ul>
+      <li *ngFor="let logro of achievement.logros">
+        {{ logro.descripcion }}
+      </li>
+    </ul>
+  </div>
+</div>
