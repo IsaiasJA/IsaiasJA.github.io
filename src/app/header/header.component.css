@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-spacing: 20px; /* Añade espacio entre las celdas */
+}
+
+td {
+    vertical-align: middle; /* Alinea el contenido en el medio verticalmente */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+td img {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 3px solid #7d09e9; /* Borde similar al ejemplo de la imagen */
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333; /* Color del nombre */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    color: #666; /* Color del texto */
+}
+
+ul li::before {
+    content: '• ';
+    color: #7d09e9; /* Color del ícono en cada elemento de la lista */
+}
+
+.table-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}

@@ -1,0 +1,28 @@
+  .interests h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .interest-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  .interest {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el icono y el texto */
+  }
+  
+  .interest img {
+    width: 50px;
+    height: 50px; /* Tamaño del icono */
+  }
+  
+  .interest span {
+    font-size: 30px;
+  }
+  
